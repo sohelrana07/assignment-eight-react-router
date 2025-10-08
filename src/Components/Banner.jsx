@@ -6,7 +6,7 @@ import AppleStoreImg from "../assets/fi_5977575.png";
 const Banner = () => {
   return (
     <div>
-      <div className="max-w-[1440px] mx-auto text-center mt-20">
+      <div className="mx-auto text-center mt-8">
         <h1 className="text-4xl lg:text-6xl font-bold">
           We Build <br />
           <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
@@ -22,12 +22,12 @@ const Banner = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
           <Link
             to={`https://play.google.com/store/games?hl=en`}
-            className="btn py-5"
+            className="btn py-6"
           >
             <img className="h-7" src={GooglePlayImg} alt="" />
             <span className="text-xl font-semibold">Google Play</span>
           </Link>
-          <Link to={`https://www.apple.com/app-store/`} className="btn py-5">
+          <Link to={`https://www.apple.com/app-store/`} className="btn py-6">
             <img className="h-7" src={AppleStoreImg} alt="" />
             <span className="text-xl font-semibold">Apple Store</span>
           </Link>

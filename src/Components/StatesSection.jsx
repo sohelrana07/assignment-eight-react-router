@@ -3,9 +3,13 @@ import { Link } from "react-router";
 
 const StatesSection = () => {
   return (
-    <div className="my-10">
-      <img className="lg:max-w-2/3 lg:h-96 mx-auto" src="./hero.png" alt="" />
-      <div className="py-20 md:p-20 text-white bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-center">
+    <div className="mt-10">
+      <img
+        className="lg:max-w-2/3 lg:h-96 mx-auto px-4 lg:px-0"
+        src="./hero.png"
+        alt=""
+      />
+      <div className="py-20 md:p-16 text-white bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-center">
         <h1 className="text-2xl lg:text-4xl font-semibold md:font-bold">
           Trusted by Millions, Built for You
         </h1>
