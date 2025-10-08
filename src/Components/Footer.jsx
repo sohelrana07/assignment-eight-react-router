@@ -1,8 +1,25 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-[#001931] text-white p-10">
+      <nav>
+        <Link to="/" className="flex items-center gap-1">
+          <img className="w-10 h-10" src="/logo.png" alt="" />{" "}
+          <span className="text-xl font-bold">HERO.IO</span>
+        </Link>
+        <p className="max-w-sm text-justify">
+          At HERO.IO, we specialize in crafting innovative and highly productive
+          apps that enhance daily life. Trusted by millions, our portfolio
+          includes widely popular applications like WhatsApp, Facebook,
+          Instagram, TikTok, YouTube, X-Twitter, Snapchat, and Telegram,
+          collectively amassing over 29.6 million downloads and 906K reviews.
+          With 132+ active apps and more on the way, HERO.IO is committed to
+          turning creative ideas into digital experiences that are smart,
+          engaging, and impactful.
+        </p>
+      </nav>
       <nav>
         <h6 className="footer-title">Services</h6>
         <a className="link link-hover">Branding</a>
