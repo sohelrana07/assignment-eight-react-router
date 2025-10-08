@@ -2,11 +2,11 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 
-const TopAppsCard = ({ application }) => {
+const AppsCard = ({ application }) => {
   const { title, image, downloads, ratingAvg } = application;
 
   return (
-    <div className="card bg-white shadow-sm p-4">
+    <div className="card bg-white shadow-sm p-4 hover:scale-105 transition ease-in-out">
       <figure>
         <img
           className="h-56 w-full object-cover rounded-lg border border-gray-200"
@@ -31,4 +31,4 @@ const TopAppsCard = ({ application }) => {
   );
 };
 
-export default TopAppsCard;
+export default AppsCard;
