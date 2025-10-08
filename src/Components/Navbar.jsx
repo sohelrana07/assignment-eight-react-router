@@ -118,7 +118,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <Link
             to={`https://github.com/sohelrana07`}
-            className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold"
+            className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white font-semibold"
           >
             <FaGithub size={`60%`} />
             Contribute

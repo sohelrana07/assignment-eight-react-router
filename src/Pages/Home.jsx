@@ -7,6 +7,7 @@ import { Link } from "react-router";
 import { IoMdTrendingUp } from "react-icons/io";
 import AppsCard from "./AppsCard";
 
+
 const Home = () => {
   const { applications, loading } = useApplications();
 
@@ -24,7 +25,7 @@ const Home = () => {
             Trending Apps
             <IoMdTrendingUp className="mt-1" color={`#632EE3`} />
           </h1>
-          <p className="text-[#627382] text-xl mt-2 md:mt-4">
+          <p className="text-[#627382] text-xl mt-2 md:mt-4 text-center">
             Explore All Trending Apps on the Market developed by us
           </p>
         </span>
@@ -42,19 +43,6 @@ const Home = () => {
             ))}
           </div>
         )}
-
-        {/* {loading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4 md:mt-8 lg:mt-10">
-            {topApplications.map((application) => (
-              <AppsCard
-                key={application.id}
-                application={application}
-              ></AppsCard>
-            ))}
-          </div>
-        ) : (
-          <SkeletonLoader count={8}></SkeletonLoader>
-        )} */}
 
         <div className="text-center mt-10">
           <Link

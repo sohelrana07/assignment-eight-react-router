@@ -22,12 +22,15 @@ const Banner = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
           <Link
             to={`https://play.google.com/store/games?hl=en`}
-            className="btn py-6"
+            className="bg-white btn py-6 border-gray-300 shadow-sm hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:text-white"
           >
             <img className="h-7" src={GooglePlayImg} alt="" />
             <span className="text-xl font-semibold">Google Play</span>
           </Link>
-          <Link to={`https://www.apple.com/app-store/`} className="btn py-6">
+          <Link
+            to={`https://www.apple.com/app-store/`}
+            className="bg-white btn py-6 border-gray-300 shadow-sm hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:text-white"
+          >
             <img className="h-7" src={AppleStoreImg} alt="" />
             <span className="text-xl font-semibold">Apple Store</span>
           </Link>
