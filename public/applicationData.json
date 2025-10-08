@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co/9bR5J8y/forest.png",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "SeekrTech",
+    "id": 1,
+    "description": "Stay focused and plant trees while you work. Boost productivity through gamified focus sessions.",
+    "size": 85,
+    "reviews": 104232,
+    "ratingAvg": 4.8,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 8200 },
+      { "name": "4 star", "count": 23000 },
+      { "name": "5 star", "count": 70500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/yNfhyv7/smplan.png",
+    "title": "SmPlan: ToDo List with Reminder",
+    "companyName": "NextGen Apps",
+    "id": 2,
+    "description": "Plan tasks, set reminders, and stay productive every day with a clean and simple to-do manager.",
+    "size": 42,
+    "reviews": 56231,
+    "ratingAvg": 4.6,
+    "downloads": 4300000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2300 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 32131 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/w7y1vtn/flip.png",
+    "title": "FLIP - Focus Timer for Study",
+    "companyName": "RinaSoft",
+    "id": 3,
+    "description": "Study effectively using the FLIP timer technique, track your time, and stay disciplined.",
+    "size": 77,
+    "reviews": 94512,
+    "ratingAvg": 4.7,
+    "downloads": 9800000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4100 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 63412 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/VpgH6ct/pomocat.png",
+    "title": "Pomocat - Cute Pomodoro Timer",
+    "companyName": "CatWorks Studio",
+    "id": 4,
+    "description": "A cute cat-themed Pomodoro timer that keeps you focused and rewards you for staying productive.",
+    "size": 53,
+    "reviews": 61240,
+    "ratingAvg": 4.5,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 12500 },
+      { "name": "5 star", "count": 39340 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dmQCDCR/timeplanner.png",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "DreamCraft Studio",
+    "id": 5,
+    "description": "Organize your schedule, tasks, and goals in one place with beautiful visual time blocks.",
+    "size": 65,
+    "reviews": 80213,
+    "ratingAvg": 4.7,
+    "downloads": 8200000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3700 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 47213 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/F7vMFTZ/morninghabits.png",
+    "title": "Morning Habits - Daily Routine",
+    "companyName": "BrightHabit Labs",
+    "id": 6,
+    "description": "Build better habits and start your day with purpose through smart reminders and progress tracking.",
+    "size": 48,
+    "reviews": 41235,
+    "ratingAvg": 4.6,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 20735 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/SQpt0JP/alarmy.png",
+    "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "Delight Room Co.",
+    "id": 7,
+    "description": "Wake up on time and track your sleep habits with the world’s most annoying alarm clock app.",
+    "size": 102,
+    "reviews": 112000,
+    "ratingAvg": 4.8,
+    "downloads": 14000000,
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 4600 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 73500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/THmtY1G/focusmate.png",
+    "title": "FocusMate - Virtual Co-Working",
+    "companyName": "FocusTech Ltd.",
+    "id": 8,
+    "description": "Work alongside virtual partners to stay accountable and maximize productivity.",
+    "size": 70,
+    "reviews": 28900,
+    "ratingAvg": 4.5,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 13400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/8NmjvZp/focushabit.png",
+    "title": "Focus Habit Tracker",
+    "companyName": "MindGrow",
+    "id": 9,
+    "description": "Track your habits and focus goals to build consistency and long-term growth.",
+    "size": 41,
+    "reviews": 25500,
+    "ratingAvg": 4.4,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 11900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/9HKv1cY/breathewell.png",
+    "title": "BreatheWell - Calm & Focus",
+    "companyName": "ZenFlow Labs",
+    "id": 10,
+    "description": "Use guided breathing exercises to stay calm, focused, and reduce stress during study or work.",
+    "size": 39,
+    "reviews": 18300,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/WW8XK7n/taskhero.png",
+    "title": "TaskHero - Productivity Game",
+    "companyName": "HeroApps Studio",
+    "id": 11,
+    "description": "Turn your daily tasks into exciting challenges and level up your productivity.",
+    "size": 66,
+    "reviews": 39210,
+    "ratingAvg": 4.5,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 2300 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 11500 },
+      { "name": "5 star", "count": 19010 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/1dT9rFd/mindfocus.png",
+    "title": "MindFocus - Deep Work",
+    "companyName": "FocusSphere",
+    "id": 12,
+    "description": "Eliminate distractions, track sessions, and enter deep work mode effortlessly.",
+    "size": 74,
+    "reviews": 45100,
+    "ratingAvg": 4.6,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 1700 },
+      { "name": "2 star", "count": 2600 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 25600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Qj6GrtG/sleepwell.png",
+    "title": "SleepWell - Smart Sleep Tracker",
+    "companyName": "Restify",
+    "id": 13,
+    "description": "Analyze your sleep cycles and wake up refreshed with smart alarm and sleep music.",
+    "size": 98,
+    "reviews": 52000,
+    "ratingAvg": 4.7,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3400 },
+      { "name": "3 star", "count": 6600 },
+      { "name": "4 star", "count": 17000 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/4V4w3hR/studywave.png",
+    "title": "StudyWave - Focus Music",
+    "companyName": "WaveLabs",
+    "id": 14,
+    "description": "Stay focused with AI-curated study music and ambient sounds for deep concentration.",
+    "size": 54,
+    "reviews": 28500,
+    "ratingAvg": 4.5,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 4400 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 13600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/pW1ZpT8/timely.png",
+    "title": "Timely - Smart Daily Scheduler",
+    "companyName": "BrightPlan",
+    "id": 15,
+    "description": "A smart AI-based planner that automatically arranges your day for maximum efficiency.",
+    "size": 63,
+    "reviews": 38000,
+    "ratingAvg": 4.6,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 9500 },
+      { "name": "5 star", "count": 21000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/q5qNzLv/mindbell.png",
+    "title": "MindBell - Mindful Reminders",
+    "companyName": "PeaceFlow",
+    "id": 16,
+    "description": "Gentle reminder app to bring awareness and calm throughout your busy day.",
+    "size": 28,
+    "reviews": 17400,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/NZMKny7/lifetimer.png",
+    "title": "LifeTimer - Time Tracker",
+    "companyName": "ChronoTech",
+    "id": 17,
+    "description": "Track every moment you spend working, studying, or relaxing to improve life balance.",
+    "size": 52,
+    "reviews": 26700,
+    "ratingAvg": 4.5,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 8500 },
+      { "name": "5 star", "count": 12900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Nr7CJkP/focushive.png",
+    "title": "FocusHive - Team Productivity",
+    "companyName": "WorkNest",
+    "id": 18,
+    "description": "Collaborate, track progress, and stay motivated with your team in FocusHive.",
+    "size": 68,
+    "reviews": 31000,
+    "ratingAvg": 4.5,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9600 },
+      { "name": "5 star", "count": 14200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/TtkKs5W/progoal.png",
+    "title": "ProGoal - Goal Tracker",
+    "companyName": "SuccessMind",
+    "id": 19,
+    "description": "Set, track, and achieve your personal and professional goals with smart analytics.",
+    "size": 60,
+    "reviews": 33400,
+    "ratingAvg": 4.6,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 4400 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 16100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/7zSk3ph/deepflow.png",
+    "title": "DeepFlow - Focus Meditation",
+    "companyName": "InnerFlow Studio",
+    "id": 20,
+    "description": "Combine focus and meditation sessions for ultimate calm and productivity.",
+    "size": 46,
+    "reviews": 24500,
+    "ratingAvg": 4.7,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 6800 },
+      { "name": "5 star", "count": 12500 }
+    ]
+  }
+]
