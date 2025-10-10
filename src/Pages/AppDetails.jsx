@@ -32,7 +32,15 @@ const AppDetails = () => {
 
   if (!findApp) return <AppErrorPage></AppErrorPage>;
 
-  const { image, title, description, downloads, reviews, ratingAvg } = findApp;
+  const {
+    image,
+    title,
+    description,
+    companyName,
+    downloads,
+    reviews,
+    ratingAvg,
+  } = findApp;
 
   const handleInstall = () => {
     addToStoredApp(id);
@@ -51,10 +59,10 @@ const AppDetails = () => {
         <div className="flex flex-col gap-8 flex-1">
           <div className="border-b border-gray-300 pb-7 text-center lg:text-left">
             <h1 className="text-3xl font-bold">{title}</h1>
-            <h4 className="text-[#627382] text-lg mt-2">
+            <h4 className="text-[#627382] text-lg mt-2 font-medium">
               Developed by{" "}
-              <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
-                productive.io
+              <span className="font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+                {companyName}
               </span>
             </h4>
           </div>
