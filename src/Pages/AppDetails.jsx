@@ -6,26 +6,37 @@ import DownloadImg from "../assets/icon-downloads.png";
 import RatingsImg from "../assets/icon-ratings.png";
 import ReviewImg from "../assets/icon-review.png";
 import AppReviewChart from "./AppReviewChart";
-import { useState } from "react";
-import { addToStoredApp } from "../Utility/LocalStorage";
+import { useEffect, useState } from "react";
+import { addToStoredApp, getStoredApp } from "../Utility/LocalStorage";
 
 const AppDetails = () => {
-  const [toggle, setToggle] = useState(false);
+  const [isInstalled, setIsInstalled] = useState(false);
   const { id } = useParams();
   const { applications, loading } = useApplications();
+
+  useEffect(() => {
+    const storedApps = getStoredApp();
+
+    if (storedApps.includes(id)) {
+      setIsInstalled(true);
+    } else {
+      setIsInstalled(false);
+    }
+  }, [id]);
+
+  if (loading) return <LoadingSpinner></LoadingSpinner>;
 
   const findApp = applications.find(
     (application) => application.id === Number(id)
   );
 
-  if (loading) return <LoadingSpinner></LoadingSpinner>;
   if (!findApp) return <AppErrorPage></AppErrorPage>;
 
   const { image, title, description, downloads, reviews, ratingAvg } = findApp;
 
   const handleInstall = () => {
-    setToggle(true);
     addToStoredApp(id);
+    setIsInstalled(true);
   };
 
   return (
@@ -75,11 +86,13 @@ const AppDetails = () => {
             </div>
           </div>
           <button
-            disabled={toggle}
+            disabled={isInstalled}
             onClick={handleInstall}
-            className="w-fit mx-auto lg:mx-0 btn bg-[#00D390] text-white"
+            className={`w-fit mx-auto lg:mx-0 btn ${
+              isInstalled ? "bg-[#FF8811]" : "bg-[#00D390]"
+            } text-white px-7 hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2]`}
           >
-            {toggle ? "Installed" : "Install Now (291 MB)"}
+            {isInstalled ? "Installed" : "Install Now (291 MB)"}
           </button>
         </div>
       </div>

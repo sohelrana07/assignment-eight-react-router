@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "../Components/Banner";
 import StatesSection from "../Components/StatesSection";
 import useApplications from "../Hooks/useApplications";
@@ -6,17 +6,28 @@ import SkeletonLoader from "./SkeletonLoader";
 import { Link } from "react-router";
 import { IoMdTrendingUp } from "react-icons/io";
 import AppsCard from "./AppsCard";
-
+import LoadingSpinner from "./LoadingSpinner";
 
 const Home = () => {
+  const [showSkeleton, setShowSkeleton] = useState(false);
   const { applications, loading } = useApplications();
 
   const topApplications = applications.slice(0, 8);
 
+  useEffect(() => {
+    if (!loading) {
+      setShowSkeleton(true);
+      const timer = setTimeout(() => setShowSkeleton(false), 1500);
+      return () => clearTimeout(timer);
+    }
+  }, [loading]);
+
+  if (loading) return <LoadingSpinner></LoadingSpinner>;
+
   return (
     <div>
       <Banner></Banner>
-      <div className="-mx-[50vw] relative left-1/2 w-screen">
+      <div className="relative left-1/2 -mx-[50vw] w-screen">
         <StatesSection></StatesSection>
       </div>
       <div className="mt-6 md:mt-10 lg:mt-20">
@@ -31,9 +42,11 @@ const Home = () => {
         </span>
 
         {/* Top Apps Container */}
-        {loading ? (
+        {showSkeleton ? (
+          // setTimeout(() => {
           <SkeletonLoader count={8}></SkeletonLoader>
         ) : (
+          // }, 2000)
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4 md:mt-8 lg:mt-10">
             {topApplications.map((application) => (
               <AppsCard

@@ -19,11 +19,11 @@ const AppsCard = ({ application }) => {
         <div className="">
           <h2 className="text-xl font-medium my-4">{title}</h2>
           <div className="flex justify-between items-center">
-            <span className="text-[#00D390] flex items-center gap-2 p-1.5 bg-[#F1F5E8] rounded-sm">
+            <span className="text-[#00D390] flex items-center gap-2 px-2 py-1.5 bg-[#F1F5E8] rounded-sm">
               <FiDownload />
               {downloads}M
             </span>
-            <span className="text-[#FF8811] flex items-center gap-2 p-1.5 bg-[#FFF0E1] rounded-sm">
+            <span className="text-[#FF8811] flex items-center gap-2 px-2 py-1.5 bg-[#FFF0E1] rounded-sm">
               <FaStar />
               {ratingAvg}
             </span>

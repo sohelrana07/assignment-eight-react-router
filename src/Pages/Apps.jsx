@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useApplications from "../Hooks/useApplications";
 import SkeletonLoader from "./SkeletonLoader";
 import { RiApps2AiLine } from "react-icons/ri";
 import AppsCard from "./AppsCard";
+import LoadingSpinner from "./LoadingSpinner";
 
 const Apps = () => {
+  const [showSkeletonLd, setShowSkeletonLd] = useState(false);
+  const [searching, setSearching] = useState(false);
   const { applications, loading } = useApplications();
   const [search, setSearch] = useState("");
+
   const searchData = search.split(" ").join("").toLowerCase();
   const searchedApplications = searchData
     ? applications.filter((application) =>
@@ -15,8 +19,24 @@ const Apps = () => {
     : applications;
 
   const handleSearch = (e) => {
-    setSearch(e.target.value);
+    const value = e.target.value;
+    setSearching(true);
+    setSearch(value);
   };
+
+  setTimeout(() => {
+    setSearching(false);
+  }, 800);
+
+  useEffect(() => {
+    if (!loading) {
+      setShowSkeletonLd(true);
+      const timer = setTimeout(() => setShowSkeletonLd(false), 1500);
+      return () => clearTimeout(timer);
+    }
+  }, [loading]);
+
+  if (loading) return <LoadingSpinner></LoadingSpinner>;
 
   return (
     <div>
@@ -59,7 +79,7 @@ const Apps = () => {
         </label>
       </div>
 
-      {loading ? (
+      {searching || showSkeletonLd ? (
         <SkeletonLoader count={20}></SkeletonLoader>
       ) : searchedApplications.length === 0 ? (
         <div className="min-h-screen flex flex-col justify-center items-center space-y-8">

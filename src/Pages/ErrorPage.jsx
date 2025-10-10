@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import ErrorPageImg from "../assets/error-404.png";
+import { TbReload } from "react-icons/tb";
 
 const ErrorPage = () => {
   return (
@@ -12,9 +13,9 @@ const ErrorPage = () => {
       </p>
       <Link
         to="/"
-        className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold mt-4 px-7"
+        className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold mt-4 px-7 flex items-center"
       >
-        Go Back
+        Go Back <TbReload size={20} className="mt-0.5"/>
       </Link>
     </div>
   );

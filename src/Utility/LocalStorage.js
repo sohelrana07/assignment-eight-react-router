@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const getStoredApp = () => {
   const storedAppString = localStorage.getItem("app");
 
@@ -16,13 +18,23 @@ const setToLocalStorage = (data) => {
 
 const addToStoredApp = (id) => {
   const appData = getStoredApp();
-  if (appData.includes(id)) {
-    return alert("data already exist");
-  } else {
-    appData.push(id);
-    alert("data added");
-    setToLocalStorage(appData);
-  }
+
+  appData.push(id);
+  setToLocalStorage(appData);
+  toast.success("App installed successfully");
 };
 
-export { getStoredApp, addToStoredApp, setToLocalStorage };
+const removeAppFromStored = (id) => {
+  const appId = String(id);
+  const storedAppData = getStoredApp();
+  const remainingApp = storedAppData.filter((app) => app !== appId);
+  setToLocalStorage(remainingApp);
+  toast.success("App uninstalled successfully");
+};
+
+export {
+  getStoredApp,
+  addToStoredApp,
+  setToLocalStorage,
+  removeAppFromStored as removeToLocal,
+};
