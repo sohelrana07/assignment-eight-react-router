@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useApplications from "../Hooks/useApplications";
 import SkeletonLoader from "./SkeletonLoader";
-import { RiApps2AiLine } from "react-icons/ri";
+import { RiApps2Line } from "react-icons/ri";
 import AppsCard from "./AppsCard";
 import LoadingSpinner from "./LoadingSpinner";
 
@@ -42,7 +42,7 @@ const Apps = () => {
     <div>
       <div className="flex flex-col justify-center items-center text-center mt-8">
         <h1 className="text-3xl md:text-4xl font-bold flex items-center gap-0.5">
-          Our All Applications <RiApps2AiLine />
+          Our All Applications <RiApps2Line />
         </h1>
         <p className="text-[#627382] text-xl mt-2 md:mt-4">
           Explore All Apps on the Market developed by us. We code for Millions

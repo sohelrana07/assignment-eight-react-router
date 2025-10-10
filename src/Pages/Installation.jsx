@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { RiApps2Line } from "react-icons/ri";
+import { RiApps2AiLine } from "react-icons/ri";
 import useApplications from "../Hooks/useApplications";
 import { getStoredApp, removeToLocal } from "../Utility/LocalStorage";
 import InstalledApps from "./InstalledApps";
@@ -42,7 +42,7 @@ const Installation = () => {
     <div>
       <div className="flex flex-col justify-center items-center text-center mt-8">
         <h1 className="text-3xl md:text-4xl font-bold flex items-center gap-0.5">
-          Your Installed Apps <RiApps2Line />
+          Your Installed Apps <RiApps2AiLine />
         </h1>
         <p className="text-[#627382] text-xl mt-2 md:mt-4">
           Explore All Trending Apps on the Market developed by us

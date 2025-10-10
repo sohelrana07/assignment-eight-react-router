@@ -14,7 +14,7 @@ const Footer = () => {
           apps that enhance daily life. Trusted by millions, our portfolio
           includes widely popular applications like WhatsApp, Facebook,
           Instagram, TikTok, YouTube, X-Twitter, Snapchat, and Telegram,
-          collectively amassing over 29.6 million downloads and 906K reviews.
+          collectively amassing over 80.5 million downloads and 906K reviews.
           With 132+ active apps and more on the way, HERO.IO is committed to
           turning creative ideas into digital experiences that are smart,
           engaging, and impactful.
