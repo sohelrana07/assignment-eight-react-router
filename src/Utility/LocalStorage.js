@@ -18,7 +18,6 @@ const setToLocalStorage = (data) => {
 
 const addToStoredApp = (id) => {
   const appData = getStoredApp();
-
   appData.push(id);
   setToLocalStorage(appData);
   toast.success("App installed successfully");

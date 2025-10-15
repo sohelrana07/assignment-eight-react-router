@@ -6,6 +6,7 @@ import { TbReload } from "react-icons/tb";
 const ErrorPage = () => {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
+      <title>Page Not Found 404</title>
       <img className="h-80" src={ErrorPageImg} alt="" />
       <h2 className="text-4xl font-bold mt-4">Oops, page not found!</h2>
       <p className="text-xl text-[#627382] mt-2">
@@ -15,7 +16,7 @@ const ErrorPage = () => {
         to="/"
         className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold mt-4 px-7 flex items-center"
       >
-        Go Back <TbReload size={20} className="mt-0.5"/>
+        Go Back <TbReload size={20} className="mt-0.5" />
       </Link>
     </div>
   );

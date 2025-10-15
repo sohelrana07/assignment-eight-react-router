@@ -3,7 +3,7 @@ import DownloadImg from "../assets/icon-downloads.png";
 import RatingImg from "../assets/icon-ratings.png";
 
 const InstalledApps = ({ app, handleRemoveApp }) => {
-  const { id, title, image, downloads, ratingAvg } = app;
+  const { id, title, image, downloads, ratingAvg, size } = app;
 
   return (
     <div className="bg-white p-4 rounded-sm shadow-sm flex justify-between items-center mt-5">
@@ -26,7 +26,7 @@ const InstalledApps = ({ app, handleRemoveApp }) => {
               <img src={RatingImg} alt="" className="w-4 h-4" />
               <p className="text-[#FF8811]">{ratingAvg}</p>
             </span>
-            <p className="text-[#627382]">258 MB</p>
+            <p className="text-[#627382]">{size} MB</p>
           </div>
         </div>
       </div>

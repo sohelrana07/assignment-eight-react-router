@@ -40,6 +40,7 @@ const AppDetails = () => {
     downloads,
     reviews,
     ratingAvg,
+    size,
   } = findApp;
 
   const handleInstall = () => {
@@ -50,6 +51,7 @@ const AppDetails = () => {
   return (
     <div>
       <div className="border-b border-gray-300 pb-10 flex flex-col lg:flex-row items-center gap-10 mt-8">
+        <title>{title}</title>
         <figure>
           <img
             src={image}
@@ -100,7 +102,7 @@ const AppDetails = () => {
               isInstalled ? "bg-[#FF8811]" : "bg-[#00D390]"
             } text-white px-7 hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2]`}
           >
-            {isInstalled ? "Installed" : "Install Now (291 MB)"}
+            {isInstalled ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>

@@ -40,6 +40,7 @@ const Apps = () => {
 
   return (
     <div>
+      <title>Hero.Io | Apps</title>
       <div className="flex flex-col justify-center items-center text-center mt-8">
         <h1 className="text-3xl md:text-4xl font-bold flex items-center gap-0.5">
           Our All Applications <RiApps2Line />

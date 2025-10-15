@@ -6,6 +6,7 @@ import { AiOutlineHome } from "react-icons/ai";
 const AppErrorPage = () => {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
+      <title>App Not Found 404</title>
       <img className="h-80" src={AppErrorImg} alt="" />
       <h2 className="text-4xl font-bold mt-4">OPPS!! APP NOT FOUND</h2>
       <p className="text-xl text-[#627382] mt-2">
