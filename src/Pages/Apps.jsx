@@ -14,7 +14,7 @@ const Apps = () => {
   const searchData = search.split(" ").join("").toLowerCase();
   const searchedApplications = searchData
     ? applications.filter((application) =>
-        application.title.toLowerCase().includes(searchData)
+        application.title.split(" ").join("").toLowerCase().includes(searchData)
       )
     : applications;
 
